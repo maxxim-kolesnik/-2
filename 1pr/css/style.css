@@ -1,0 +1,94 @@
+body {
+    background-color: red;
+}
+
+div {
+    background-color: thistle;
+    height: 800px;
+    width: 800px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+h2 {
+    color: gold;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+h4 {
+    color: gold;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+h6 {
+    color: gold;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+p {
+    color: greenyellow;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+img {
+    height: auto;  
+    width: 250px;
+}
+
+i {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+b {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center; 
+}
+
+a1 {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center; 
+    text-decoration: underline;
+}
+
+a2 {
+    color: white;
+    font-size: medium;
+    font-family: Arial;
+    text-align: center; 
+    text-decoration: line-through; 
+}
