@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.header {
+	 position: absolute;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+   width: 1140px;
+	 height: 30px;
+	 padding: 30px;
+	 margin-top: 10px;
+	 background-color: transparent;
+}
+  
+.first {
+    display: flex;
+    height: 600px;
+    flex-grow: 0;
+  }
+  
+.second {
+    background: rgb(255, 255, 255);
+    height: 600px;
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.text_big {
+   color: #156963;
+	 margin: 186px 72px 24px 0;
+	 font-size: 63px;
+	 font-weight: 500;
+  }
+
+.text_two {
+   font-weight: 400;
+	 font-size: 18px;
+	 margin: 0 72px 24px 0;
+	 line-height: 32px;
+	 text-align: justify;
+	 color: #2C1500;
+}
+
+.right_text {
+   margin-bottom: 250px;
+	 margin-left: 70px;
+}
+
+nav {
+	 display: flex;
+	 align-items: center;
+}
+
+.sign_up {
+	color: #156963;
+	padding: 15px;
+  width: 100px;
+  text-align: center;
+}
+
+.sign_in {
+	background-color: #156963;
+	color: white;
+	padding: 15px;
+  width: 100px;
+  text-align: center;
+}
+
+.previous {
+	padding: 40px 30px;
+	color: #156963;
+	width: 320px;
+}
+
+.block_text {
+	font-size: 24px;
+	color: #333333;
+	display: flex;
+	align-items: center;
+	opacity: 0.5;
+}
+
+.next {
+	padding: 40px 50px;
+	background-color: #156963;
+	color: white;
+}
+
+.block_text2 {
+	font-size: 24px;
+	color: #F2F2F2;
+	display: flex;
+	align-items: center;
+	opacity: 0.5;
+}
+
+h3, h2 {
+	background-color: transparent;
+	font-weight: 400;
+}
+
+.block_down {
+  display: flex;
+	position: absolute;
+	bottom: 0;
+}
+
+.inf_cards {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 140px;
+}
+
+.card {
+  padding: 25px;
+  margin: 160px 20px;
+  border: 1px solid rgb(187, 187, 187);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card h4 {
+  color: #156963;
+  font-weight: 700;
+  width: 50px;
+  margin-left: 20px;
+}
+
+.layerimg {
+  margin-bottom: -9px;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.text_left {
+  font-style: normal;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.line {
+  margin-left: 55px;
+  margin-right: 55px;
+  margin-top: 10px;
+  height: 1px;
+  background: gray;
+  opacity: 0.6;
+}
+
+.cheap {
+  
+  border: 1px solid gray;
+  font-style: normal;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #000000;
+}
+
+.cheap::after {
+  content: "˅";
+  margin-left: 10px;
+}
+
+.box_t {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.box {
+  width: 220px;
+}
+
+.box p {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.price {
+  text-align: center;
+  font-weight: 650;
+}
